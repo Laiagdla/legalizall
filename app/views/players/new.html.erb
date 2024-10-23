@@ -1,0 +1,17 @@
+<%= form_with model: @player, url: calculate_bmi_path, data: { turbo: false }, local: true do |f| %>
+  <div>
+    <%= f.label :body_weight %>
+    <%= f.number_field :body_weight %>
+  </div>
+
+  <div>
+    <%= f.label :height %>
+    <%= f.number_field :height %>
+  </div>
+
+  <%= f.submit "Calculate BMI" %>
+<% end %>
+
+<% if @player.body_weight.present? && @player.height.present? %>
+  <h2>Your BMI is: <%= @player.bmi %></h2>
+<% end %>

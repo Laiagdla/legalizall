@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <h1 class="mb-4">Players</h1>
+
+  <div class="row">
+    <% @players.each do |player| %>
+      <%= render partial: 'player_card', locals: { player: player } %>
+    <% end %>
+  </div>
+
+  <!-- Handle case where no players are available -->
+  <% if @players.empty? %>
+    <p>No players available. Please create some players!</p>
+  <% end %>
+</div>
