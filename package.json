@@ -2,7 +2,8 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "openmoji": "^15.0.0"
   },
   "name": "legalizall",
   "version": "1.0.0",
