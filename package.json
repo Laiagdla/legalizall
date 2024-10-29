@@ -2,7 +2,12 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1"
-  }
+    "jquery": "^3.7.1"
+  },
+  "name": "legalizall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Laiagdla/legalizall.git",
+  "author": "Laiagdla <25137442+Laiagdla@users.noreply.github.com>",
+  "license": "MIT"
 }

@@ -8,6 +8,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.enable_reloading = true
 
+  # for avoiding precompiling
+  # config.action_controller.perform_caching = false
+
   # Do not eager load code on boot.
   config.eager_load = false
 

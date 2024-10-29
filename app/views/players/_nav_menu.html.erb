@@ -1,0 +1,44 @@
+<!-- Nav pills -->
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="players-tab" data-bs-toggle="pill"
+            data-target="#players-content" type="button" role="tab"
+            data-action="click->controller#showContent" aria-controls="players-content"
+            aria-selected="true">
+      Players
+    </button>
+  </li>
+  
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="game-tab" data-bs-toggle="pill"
+            data-target="#game-content" type="button" role="tab"
+            data-action="click->controller#showContent" aria-controls="game-content"
+            aria-selected="false">
+      Game
+    </button>
+  </li>
+
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="info-tab" data-bs-toggle="pill"
+            data-target="#info-content" type="button" role="tab"
+            data-action="click->controller#showContent" aria-controls="info-content"
+            aria-selected="false">
+      Info
+
+    </button>
+  </li>
+</ul>
+
+<!-- Content for each tab -->
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="players-content" role="tabpanel"
+        aria-labelledby="players-tab">
+    <!-- Players content goes here -->
+  </div>
+  <div class="tab-pane fade" id="game-content" role="tabpanel" aria-labelledby="game-tab">
+    <!-- Game content goes here -->
+  </div>
+  <div class="tab-pane fade" id="info-content" role="tabpanel" aria-labelledby="info-tab">
+    <!-- Info content goes here -->
+  </div>
+</div>
